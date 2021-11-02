@@ -1,0 +1,24 @@
+#include <iostream>	
+using namespace std;
+int main(){
+	string slovo;
+	cin >> slovo;
+
+	cout << "napis dane slovo" << endl;
+		
+		switch (slovo) {
+		case "jablko":
+			cout << "som hladny" << endl;
+			break;
+		case "mec":
+			cout << "Do zbrane" << endl;
+			break;
+		case "hudba":
+			cout << "Nananananaaaaa" << endl;
+			break;
+		default:
+			cout << "Toto slovo nepoznam" << endl;
+
+		}
+
+	}
